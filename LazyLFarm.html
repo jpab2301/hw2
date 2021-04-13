@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazyL</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    <h1 class="text-center p-2 font-bold text-4xl">LazyLFarm</h1>
+</head>
+<body>
+    <ul class="md: p-2 bg-gray-100 text-gray-700">
+        <li>Breeder Name:  Linda LaFrance</li>
+        <li>Location:  Weirsdale, FL 32195</li>
+        <li>Phone:  (352) 255-3385</li>
+        <li>Email: <a href="mailto: info.breed@yandex.com">info.breed@yandex.com</a></li>
+    </ul>
+    <h1 class="text-2xl font-bold">Get in contact</h1>
+    <form netlify class="p-2">
+        <div>
+        <label class="block mt-4 font-bold" for="name">Name</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+    </div>
+
+    <div>
+        <label class="block mt-4 font-bold" for="favorite-color">Your email you would like to be contacted</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+    </div>
+
+    <div>
+        <label class="block mt-4 font-bold" for="favorite-color">Message to breeder</label>
+        <input class="p-8 px-64 py-4 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+    </div>
+        <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit</button>
+      </form>
+
+
+<!-- Back to homepage -->
+<div class="underline font-bold text-blue-700"><a href="index.html">See more breeders!</a></div>
+</body>
+</html>
